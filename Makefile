@@ -15,8 +15,8 @@ validate-circleci:
 
 run-circleci-local:
 	# See https://circleci.com/docs/2.0/local-cli/#running-a-job
-	circleci local execute
-
+	circleci local execute -c .circleci/config.yml
+	
 lint:
 	hadolint demos/flask-sklearn/Dockerfile
 	pylint --disable=R,C,W1203 demos/**/**.py
