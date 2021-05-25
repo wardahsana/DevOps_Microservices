@@ -18,6 +18,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #!/usr/bin/env bash
 
@@ -35,3 +36,5 @@ kubectl get pods
 # Forward the container port to host
 kubectl port-forward flaskskearlndemo 8000:80
 >>>>>>> 60771a2330e609019d5c3f1eddb85438dd9c2746
+=======
+>>>>>>> 580b2db6e3a2e96654eff0f94efe4e9a334091eb
