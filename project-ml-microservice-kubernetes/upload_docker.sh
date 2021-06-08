@@ -9,6 +9,8 @@ dockerpath=wardahsana/dlocal
 
 # Step 2:  
 # Authenticate & tag
+docker login --username wardahsana
+docker tag dlocal $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
