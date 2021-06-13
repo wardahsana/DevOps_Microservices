@@ -16,4 +16,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward testcontainer 8002:80
+#-previous-kubectl port-forward testcontainer 8002:80
+kubectl expose deployment testcontainer --type=LoadBalancer --port=8002 --target-port=80
